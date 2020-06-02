@@ -444,23 +444,24 @@
 	display: inline;
 }
 
-/* BITTER SWEET COW PAGE */
+/* BEER PAGE */
 
-.bscpage {
+.beerpage {
 	max-width: 1200px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: minmax(100px, auto);
+	margin-bottom: 100px;
 }
 
-.bscpicture {
+.beerpagepicture {
 	max-height: 500px;
 	margin-left: 230px;
 	margin-top: 200px;
 
 }
 
-.bscpageh1 {
+.beerpageh1 {
 	font-family: BebasNeue;
 	font-size: 4.7em;
 	margin-top: 200px;
@@ -469,13 +470,35 @@
 
 }
 
-.bscpage p {
+
+.beerpage p {
 	font-family: Helvetica;
 	text-align: justify;
 	max-width: 500px;
 	margin-left: 60px;
 	margin-top: 50px;
 
+}
+
+.infop {
+	font-family: Helvetica;
+	text-align: justify;
+	max-width: 500px;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+.beerpage h5 {
+	font-family: BebasNeue;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+
+
+hr {
+	border: 1px solid #044160;
+	max-width: 500px;
+	margin-top: 50px;
 }
 
 /*
