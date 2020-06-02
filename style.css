@@ -128,14 +128,26 @@
 }
 
 /* OUR BEER PAGE */
-#ourbeercontainer {}
+#ourbeercontainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	margin-bottom: 70px;
+}
 
+.ourbeersplash {
+	margin-top: 50px;
+	max-height: 750px;
+}
+
+/*
 .ourbeerh1 {
 	font-family: BebasNeue;
 	margin-top: 200px;
 	font-size: 7em;
 	text-align: center;
 }
+*/
 
 .bsc {
 	position: relative;
@@ -150,11 +162,11 @@
 }
 
 .bscfront {
-	max-height: 300px;
+	max-height: 250px;
 }
 
 .bscback {
-	max-height: 300px;
+	max-height: 250px;
 }
 
 .bsc .bscback {
@@ -182,11 +194,11 @@
 }
 
 .summeripafront {
-	max-height: 300px;
+	max-height: 250px;
 }
 
 .summeripaback {
-	max-height: 300px;
+	max-height: 250px;
 }
 
 .summeripa .summeripaback {
@@ -199,6 +211,271 @@
 
 .summeripa:hover .summeripaback {
 	display: inline;
+}
+
+.tgiipa {
+	position: relative;
+	display: inline-block;
+
+}
+
+.tgiipah4 {
+	margin-top: 20px;
+	font-family: BebasNeue;
+	text-align: center;
+}
+
+.tgiipafront {
+	max-height: 250px;
+}
+
+.tgiipaback {
+	max-height: 250px;
+}
+
+.tgiipa .tgiipaback {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.tgiipa:hover .tgiipaback {
+	display: inline;
+}
+
+
+.sourpeach {
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+.sourpeachh4 {
+	margin-top: 20px;
+	font-family: BebasNeue;
+	text-align: center;
+}
+
+.sourpeachfront {
+	max-height: 250px;
+}
+
+.sourpeachback {
+	max-height: 250px;
+}
+
+.sourpeach .sourpeachback {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.sourpeach:hover .sourpeachback {
+	display: inline;
+}
+
+.hangar5 {
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+.hangar5h4 {
+	margin-top: 20px;
+	font-family: BebasNeue;
+	text-align: center;
+}
+
+.hangar5front {
+	max-height: 250px;
+}
+
+.hangar5back {
+	max-height: 250px;
+}
+
+.hangar5 .hangar5back {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.hangar5:hover .hangar5back {
+	display: inline;
+}
+
+.redbaron {
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+.redbaronh4 {
+	margin-top: 20px;
+	font-family: BebasNeue;
+	text-align: center;
+}
+
+.redbaronfront {
+	max-height: 250px;
+}
+
+.redbaronback {
+	max-height: 250px;
+}
+
+.redbaron .redbaronback {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.redbaron:hover .redbaronback {
+	display: inline;
+}
+
+.xmas {
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+.xmash4 {
+	margin-top: 20px;
+	font-family: BebasNeue;
+	text-align: center;
+}
+
+.xmasfront {
+	max-height: 250px;
+}
+
+.xmasback {
+	max-height: 250px;
+}
+
+.xmas .xmasback {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.xmas:hover .xmasback {
+	display: inline;
+}
+
+.pilot {
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+.piloth4 {
+	margin-top: 20px;
+	font-family: BebasNeue;
+	text-align: center;
+}
+
+.pilotfront {
+	max-height: 250px;
+}
+
+.pilotback {
+	max-height: 250px;
+}
+
+.pilot .pilotback {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.pilot:hover .pilotback {
+	display: inline;
+}
+
+.mwl {
+	position: relative;
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+.mwlh4 {
+	margin-top: 20px;
+	font-family: BebasNeue;
+	text-align: center;
+}
+
+.mwlfront {
+	max-height: 250px;
+}
+
+.mwlback {
+	max-height: 250px;
+}
+
+.mwl .mwlback {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.mwl:hover .mwlback {
+	display: inline;
+}
+
+/* BITTER SWEET COW PAGE */
+
+.bscpage {
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.bscpicture {
+	max-height: 500px;
+	margin-left: 230px;
+	margin-top: 200px;
+
+}
+
+.bscpageh1 {
+	font-family: BebasNeue;
+	font-size: 4.7em;
+	margin-top: 200px;
+	margin-left: 60px;
+
+
+}
+
+.bscpage p {
+	font-family: Helvetica;
+	text-align: justify;
+	max-width: 500px;
+	margin-left: 60px;
+	margin-top: 50px;
+
 }
 
 /*
