@@ -201,6 +201,30 @@ a:hover {
 	transform: translateY(0) !important;
 }
 
+.instagram {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	height: 200px;
+	background-color: orange;
+	padding-top: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 50px;
+}
+
+.instagram h1 {
+	font-family: BebasNeue;
+	font-size: 6em;
+}
+
+.instagram p {
+	font-family: Helvetica;
+	max-width: 500px;
+	text-align: right;
+
+}
+
 /* OUR BEER PAGE */
 #ourbeercontainer {
 	display: grid;
@@ -1048,6 +1072,20 @@ input[type=book]:hover {
 		margin-bottom: 50px;
 	}
 
+	.instagram {
+		grid-template-columns: 1fr;
+		height: 250px;
+	}
+
+	.instagram h1 {
+		font-size: 4.3em;
+		text-align: center;
+	}
+
+	.instagram p {
+		text-align: center;
+		font-size: 1em;
+	}
 
 
 
