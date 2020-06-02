@@ -18,6 +18,10 @@ a:hover {
 		background-color: white;
 	}
 
+	.text-success {
+		color: #016caf !important;
+	}
+
 	#forsidesplash {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -157,16 +161,22 @@ a:hover {
 }
 
 .offerbutton {
-	border: 1px solid black;
 	height: 50px;
 	border-radius: 30px;
 	width: 200px;
+	background-color: #ffba00;
+
+}
+
+.offerbutton:hover {
+	background-color: #ff9d00;
 }
 
 .offerbutton h5 {
 	padding: 15px;
-	padding-left: 30px;
+	padding-left: 33px;
 	font-family: BebasNeue;
+	color: white;
 }
 
 .pressgauge {
@@ -183,6 +193,7 @@ a:hover {
 	transition: all 300ms ease-in-out;
 	max-height: 1000px;
 	margin-left: 265px;
+	margin-bottom: 200px;
 }
 
 .js-slidein-visible {
@@ -615,12 +626,65 @@ hr {
 	font-size: 3em;
 }
 
-
-.form h3 {
-	text-align: center;
-	font-family: BebasNeue;
-	font-size: 7em;
+.contactlars {
+	max-height: 450px;
 }
+
+
+label {
+	font-family: BebasNeue;
+	font-size: 1.6em;
+}
+
+input[type=text],
+select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: Helvetica;
+
+}
+
+input[type=book] {
+	width: 400px;
+	background-color: #ffc400;
+	color: white;
+	padding: 20px 150px;
+	margin-left: 220px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	font-family: BebasNeue;
+	font-size: 2em;
+	text-align: center;
+}
+
+input[type=book]:hover {
+	background-color: #ff9d00;
+}
+
+.bookform {
+	border-radius: 5px;
+	padding: 20px;
+	max-width: 900px;
+	margin-left: 180px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.bookform h3 {
+	font-family: BebasNeue;
+	font-size: 4em;
+	color: orange;
+
+}
+
+
+
 
 @media only screen and (max-width: 992px) {
 
@@ -880,7 +944,7 @@ hr {
 
 	#youbrewcontainer {
 		background-color: white;
-		margin-bottom: 200px;
+		margin-bottom: 40px;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 
@@ -917,6 +981,7 @@ hr {
 
 	.youbrewbox2 h2 {
 		font-family: BebasNeue;
+		font-size: 3em;
 	}
 
 	.youbrewbox2 {
@@ -928,6 +993,7 @@ hr {
 	}
 
 	.youbrewbox2 p {
+		margin-top: 40px;
 		font-family: Helvetica;
 		text-align: justify;
 	}
@@ -939,6 +1005,11 @@ hr {
 		grid-template-columns: 1fr;
 		grid-auto-rows: minmax(100px, auto);
 
+
+	}
+
+	.youbrewcontainer2 h2 {
+		font-size: 3em;
 
 	}
 
@@ -962,11 +1033,23 @@ hr {
 
 	.youbrewcontainer2 p {
 		min-width: 50px;
+		margin-bottom: 40px;
+		margin-top: 30px;
 	}
 
 	.pressgauge {
 		max-width: 400px;
 	}
+
+	.js-slidein {
+		max-height: 730px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
+
+
+
 
 
 	/* OUR BEER PAGE */
