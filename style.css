@@ -12,6 +12,9 @@ a:hover {
 
 }
 
+
+
+
 @media only screen and (max-width: 1920px) {
 
 	section {
@@ -20,6 +23,7 @@ a:hover {
 
 	.text-success {
 		color: #016caf !important;
+		font-family: BebasNeue;
 	}
 
 	#forsidesplash {
@@ -223,6 +227,10 @@ a:hover {
 	max-width: 500px;
 	text-align: right;
 
+}
+
+.eapps-instagram-feed-content {
+	margin-bottom: 50px !important;
 }
 
 /* OUR BEER PAGE */
@@ -599,6 +607,48 @@ hr {
 	margin-top: 50px;
 }
 
+/* ABOUT PAGE START */
+
+.aboutparallax h1 {
+	font-family: BebasNeue;
+	font-size: 10em;
+	color: black;
+	margin-left: 20px;
+	padding-top: 420px;
+}
+
+.aboutparallax {
+	background-image: url('goodbeerbackground2-01.png');
+
+	height: 700px;
+
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+
+}
+
+
+.aboutbox {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1em;
+	grid-auto-rows: minmax(100px, auto);
+	justify-content: stretch;
+	margin-top: 40px;
+	margin-left: 50px;
+	background-color: white;
+	height: 550px;
+}
+
+
+
+
+/* ABOUT PAGE END */
+
 .contactparallax {
 	background-image: url("kimlars2.png");
 
@@ -886,6 +936,14 @@ input[type=book]:hover {
 	.sourpeachh4 {
 		margin-right: 20px;
 	}
+
+	.bookform h3 {
+		font-family: BebasNeue;
+		font-size: 4.5em;
+		color: orange;
+		text-align: center;
+
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -1072,6 +1130,7 @@ input[type=book]:hover {
 		margin-bottom: 50px;
 	}
 
+
 	.instagram {
 		grid-template-columns: 1fr;
 		height: 250px;
@@ -1087,8 +1146,7 @@ input[type=book]:hover {
 		font-size: 1em;
 	}
 
-
-
+	#
 
 	/* OUR BEER PAGE */
 	#ourbeercontainer {
@@ -1149,5 +1207,70 @@ input[type=book]:hover {
 	.sourpeachh4 {
 		margin-right: 20px;
 	}
+
+	/* BOOK PAGE */
+
+
+	.bookform {
+		margin-left: 10px;
+	}
+
+	.bookform h3 {
+		font-family: BebasNeue;
+		color: orange;
+		font-size: 3em;
+
+	}
+
+	label {
+		font-family: BebasNeue;
+		font-size: 1.2em;
+	}
+
+	input[type=text],
+	select {}
+
+	input[type=book] {
+		margin-left: 25px;
+	}
+
+
+	.contactbox {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+		justify-content: stretch;
+		margin-left: 50px;
+		background-color: white;
+		height: 750px;
+	}
+
+
+
+	.contactkim {
+		max-height: 350px;
+	}
+
+	.contacttext {
+		max-width: 400px;
+		margin-top: 0px;
+		font-family: Helvetica;
+		text-align: justify;
+	}
+
+	.contacttext h1 {
+		font-family: BebasNeue;
+		font-size: 3em;
+		text-align: center;
+	}
+
+	.contactlars {
+		max-height: 350px;
+	}
+
+
+
+
 
 }
