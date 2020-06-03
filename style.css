@@ -191,20 +191,56 @@ a:hover {
 	grid-row: 1;
 }
 
+.howtocontainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 3.5em;
 
-.js-slidein {
-	opacity: 0;
-	transform: translateY(100px);
-	-webkit-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-	max-height: 1000px;
-	margin-left: 265px;
-	margin-bottom: 200px;
 }
 
-.js-slidein-visible {
-	opacity: 1 !important;
-	transform: translateY(0) !important;
+.howtocontainer h2 {
+	font-family: BebasNeue;
+	font-size: 3em;
+}
+
+.howtocontainer p {
+	font-family: Helvetica;
+	max-width: 450px;
+}
+
+
+.howtobrew {
+	max-height: 700px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.newsletterhorn {
+	max-height: 300px;
+}
+
+.signupinput {
+	margin-right: 200px;
+}
+
+input[type=signup] {
+	width: 400px;
+	background-color: orange;
+	color: white;
+	padding: 10px;
+	margin-left: 20px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	font-family: BebasNeue;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+input[type=signup]:hover {
+	background-color: #ffeb00;
 }
 
 .instagram {
@@ -243,6 +279,11 @@ a:hover {
 	grid-auto-rows: minmax(100px, auto);
 	margin-left: 50px;
 	margin-bottom: 100px;
+
+}
+
+.ipavideo {
+	max-height: 300px;
 
 }
 
@@ -285,6 +326,7 @@ a:hover {
 .ordertekst h1 {
 	font-family: BebasNeue;
 	font-size: 3em;
+	color: orange;
 }
 
 .ordertekst p {
@@ -1068,6 +1110,99 @@ input[type=book]:hover {
 		text-align: center;
 
 	}
+
+	.order {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+
+	}
+
+	.ordertekst {
+		margin-left: 30px;
+	}
+
+	.ordertekst h1 {
+		font-family: BebasNeue;
+		font-size: 3em;
+	}
+
+	.ordertekst p {
+		font-family: Helvetica;
+		text-align: justify;
+		margin-top: 30px;
+		margin-right: 100px;
+	}
+
+	.sourpeachcans {
+		max-width: 900px;
+		grid-column: 1;
+	}
+
+	.ipavideo {
+		max-height: 250px;
+
+	}
+
+	/* BEER PAGE */
+
+	.beerpage {
+		max-width: 900px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-bottom: 100px;
+	}
+
+	.beerpagepicture {
+		max-height: 400px;
+		margin-left: 100px;
+
+
+	}
+
+	.beerpageh1 {
+		font-family: BebasNeue;
+		font-size: 4.7em;
+		margin-top: 200px;
+		margin-left: 60px;
+
+
+	}
+
+
+	.beerpage p {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 500px;
+		margin-left: 60px;
+		margin-top: 50px;
+
+	}
+
+	.infop {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 500px;
+		margin-left: 60px;
+		margin-top: 10px;
+	}
+
+	.beerpage h5 {
+		font-family: BebasNeue;
+		margin-left: 60px;
+		margin-top: 40px;
+	}
+
+
+	hr {
+		border: 1px solid #044160;
+		max-width: 500px;
+		margin-top: 50px;
+	}
+
+	/* BEER PAGE END*/
 }
 
 @media only screen and (max-width: 600px) {
@@ -1247,11 +1382,50 @@ input[type=book]:hover {
 		max-width: 400px;
 	}
 
-	.js-slidein {
-		max-height: 730px;
-		margin-left: 0;
-		margin-right: 0;
+	.howtocontainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 2em;
+
+	}
+
+	.howtocontainer h2 {
+		font-family: BebasNeue;
+		font-size: 3em;
+		margin-left: 23px;
+	}
+
+	.howtocontainer p {
+		font-family: Helvetica;
+		max-width: 450px;
+		margin-left: 24px;
+	}
+
+
+	.howtobrew {
+		max-height: 700px;
+		margin-left: 2px;
 		margin-bottom: 50px;
+
+	}
+
+	.newsletterhorn {
+		max-height: 300px;
+		margin-left: 15px;
+	}
+
+	.signupinput {
+		margin-right: 200px;
+		margin-left: 40px;
+	}
+
+	input[type=signup] {
+		margin-bottom: 60px;
+	}
+
+	input[type=signup]:hover {
+		background-color: #ffeb00;
 	}
 
 
@@ -1368,6 +1542,7 @@ input[type=book]:hover {
 		margin-left: 50px;
 		background-color: white;
 		height: 750px;
+		margin-top: 40px;
 	}
 
 
@@ -1395,6 +1570,7 @@ input[type=book]:hover {
 
 
 	/* OUR BEER PAGE */
+
 	.summeripavideo {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -1432,6 +1608,18 @@ input[type=book]:hover {
 		min-width: 340px;
 	}
 
+	#ourbeercontainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-bottom: 100px;
+		margin-left: 40px;
+	}
+
+	.beerselection {
+		font-size: 5em;
+	}
+
 	.order {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -1442,12 +1630,14 @@ input[type=book]:hover {
 
 	.ordertekst {
 		margin-left: 30px;
+
 	}
 
 	.ordertekst h1 {
 		font-family: BebasNeue;
 		font-size: 4em;
 		text-align: center;
+		color: orange;
 	}
 
 	.ordertekst p {
@@ -1570,4 +1760,64 @@ input[type=book]:hover {
 
 
 	/* ABOUT PAGE END */
+
+	/* BEER PAGE */
+
+	.beerpage {
+		max-width: 450px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-bottom: 100px;
+	}
+
+	.beerpagepicture {
+		max-height: 400px;
+		margin-left: 150px;
+
+
+	}
+
+	.beerpageh1 {
+		font-family: BebasNeue;
+		font-size: 4.7em;
+		margin-top: 200px;
+		margin-left: 60px;
+
+
+	}
+
+
+	.beerpage p {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 500px;
+		margin-left: 60px;
+		margin-top: 50px;
+
+	}
+
+	.infop {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 500px;
+		margin-left: 60px;
+		margin-top: 10px;
+	}
+
+	.beerpage h5 {
+		font-family: BebasNeue;
+		margin-left: 60px;
+		margin-top: 40px;
+	}
+
+
+	hr {
+		border: 1px solid #044160;
+		max-width: 450px;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+
+	/* BEER PAGE END*/
 }
