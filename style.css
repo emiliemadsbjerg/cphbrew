@@ -26,6 +26,8 @@ a:hover {
 		font-family: BebasNeue;
 	}
 
+
+
 	#forsidesplash {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -234,11 +236,73 @@ a:hover {
 }
 
 /* OUR BEER PAGE */
+
+.summeripavideo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	margin-left: 50px;
+	margin-bottom: 100px;
+
+}
+
+.videotekst {
+	margin-left: 60px;
+
+}
+
+.videotekst h1 {
+	font-family: BebasNeue;
+	font-size: 4em;
+	color: #3495dd;
+}
+
+.videotekst p {
+	font-family: Helvetica;
+	text-align: justify;
+	margin-right: 50px;
+}
+
+.beerselection {
+	font-family: BebasNeue;
+	text-align: center;
+	font-size: 7em;
+	margin-bottom: 50px;
+}
+
+.order {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+	grid-auto-rows: minmax(100px, auto);
+
+}
+
+.ordertekst {
+	margin-left: 30px;
+}
+
+.ordertekst h1 {
+	font-family: BebasNeue;
+	font-size: 3em;
+}
+
+.ordertekst p {
+	font-family: Helvetica;
+	text-align: justify;
+	margin-top: 30px;
+	margin-right: 25px;
+}
+
+.sourpeachcans {
+	max-width: 800px;
+}
+
 #ourbeercontainer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-auto-rows: minmax(100px, auto);
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 }
 
 .ourbeersplash {
@@ -635,16 +699,74 @@ hr {
 .aboutbox {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 1em;
 	grid-auto-rows: minmax(100px, auto);
 	justify-content: stretch;
 	margin-top: 40px;
 	margin-left: 50px;
 	background-color: white;
-	height: 550px;
+	height: 600px;
+}
+
+.aboutbox h1 {
+	font-family: BebasNeue;
+	font-size: 6.5em;
+	padding-left: 600px;
+	grid-column: 1/4;
+	color: #306293;
+}
+
+.aboutbox h2 {
+	font-family: BebasNeue;
+	font-size: 3em;
+}
+
+.aboutbox p {
+	font-family: Helvetica;
+	text-align: justify;
+	max-width: 570px;
+	margin-top: 20px;
+}
+
+.tanke {
+	max-height: 400px;
+	margin-left: 40px;
+}
+
+.ourvisiongif {
+	max-height: 300px;
+	grid-column: 1/4;
+	margin-left: 100px;
+
+}
+
+.visionbox {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1em;
+	grid-auto-rows: minmax(100px, auto);
+	justify-content: stretch;
+	margin-left: 50px;
+	background-color: white;
+	height: 750px;
+	padding-top: 50px;
+	padding-left: 120px;
+}
+
+.visionbox h2 {
+	font-family: BebasNeue;
+	font-size: 2em;
+}
+
+.visionbox p {
+	font-family: Helvetica;
+	text-align: justify;
+	max-width: 350px;
+
 }
 
 
+
+.visionbrew {}
 
 
 /* ABOUT PAGE END */
@@ -676,10 +798,10 @@ hr {
 	grid-column-gap: 1em;
 	grid-auto-rows: minmax(100px, auto);
 	justify-content: stretch;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: 50px;
 	background-color: white;
-	height: 550px;
+	height: 520px;
 }
 
 
@@ -689,7 +811,7 @@ hr {
 }
 
 .contacttext {
-	max-width: 500px;
+	max-width: 450px;
 	margin-top: 80px;
 	font-family: Helvetica;
 	text-align: justify;
@@ -698,6 +820,7 @@ hr {
 .contacttext h1 {
 	font-family: BebasNeue;
 	font-size: 3em;
+	text-align: left;
 }
 
 .contactlars {
@@ -725,7 +848,7 @@ select {
 
 input[type=book] {
 	width: 400px;
-	background-color: #ffc400;
+	background-color: orange;
 	color: white;
 	padding: 20px 150px;
 	margin-left: 220px;
@@ -735,10 +858,11 @@ input[type=book] {
 	font-family: BebasNeue;
 	font-size: 2em;
 	text-align: center;
+	margin-top: 20px;
 }
 
 input[type=book]:hover {
-	background-color: #ff9d00;
+	background-color: #60dd1d;
 }
 
 .bookform {
@@ -1270,7 +1394,180 @@ input[type=book]:hover {
 	}
 
 
+	/* OUR BEER PAGE */
+	.summeripavideo {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-left: 50px;
+		margin-bottom: 100px;
+
+	}
+
+	.ipavideo {
+		max-height: 230px;
+		grid-column: 1/3;
+	}
+
+	.videotekst {
+		margin-top: 40px;
+		margin-left: 0px;
+
+
+	}
+
+	.videotekst h1 {
+		font-family: BebasNeue;
+		text-align: center;
+		font-size: 4em;
+		color: #3495dd;
+	}
+
+	.videotekst p {
+		font-family: Helvetica;
+		text-align: justify;
+		justify-content: center;
+		margin-right: 0px;
+		margin-left: 30px;
+		min-width: 340px;
+	}
+
+	.order {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+
+	}
+
+	.ordertekst {
+		margin-left: 30px;
+	}
+
+	.ordertekst h1 {
+		font-family: BebasNeue;
+		font-size: 4em;
+		text-align: center;
+	}
+
+	.ordertekst p {
+		font-family: Helvetica;
+		text-align: justify;
+		margin-top: 30px;
+		margin-right: 25px;
+	}
+
+	.sourpeachcans {
+		max-width: 500px;
+		grid-column: 1;
+	}
+
+	/* OUR BEER PAGE END*/
+
+	/* ABOUT PAGE START */
+
+	.aboutparallax h1 {
+		font-family: BebasNeue;
+		font-size: 6.2em;
+		color: black;
+		margin-left: 20px;
+		padding-top: 450px;
+	}
+
+	.aboutparallax {
+		background-image: url('goodbeerbackground2-01.png');
+
+		height: 700px;
+
+		background-attachment: fixed;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
 
 
 
+	}
+
+
+	.aboutbox {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		justify-content: stretch;
+		margin-left: 40px;
+		background-color: white;
+		height: 900px;
+		margin-right: 40px;
+	}
+
+	.aboutbox h1 {
+		font-family: BebasNeue;
+		font-size: 4.8em;
+		padding-left: 0;
+		grid-column: 1/4;
+		color: #306293;
+
+	}
+
+	.aboutbox h2 {
+		font-family: BebasNeue;
+		font-size: 3em;
+	}
+
+	.aboutbox p {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 570px;
+		margin-top: 20px;
+	}
+
+	#begantekst {}
+
+	.tanke {
+		max-height: 300px;
+		margin-left: 20px;
+
+	}
+
+	.ourvisiongif {
+		max-height: 200px;
+		grid-column: 1/2;
+		margin-left: 0px;
+
+	}
+
+	.visionbox {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+		justify-content: stretch;
+		margin-left: 30px;
+		background-color: white;
+		height: 750px;
+		padding-top: 50px;
+		padding-left: 0px;
+
+	}
+
+	.visionbox h2 {
+		font-family: BebasNeue;
+		font-size: 2em;
+		text-align: center;
+	}
+
+	.visionbox p {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 350px;
+		margin-left: 60px;
+
+	}
+
+
+
+	.visionbrew {}
+
+
+	/* ABOUT PAGE END */
 }
