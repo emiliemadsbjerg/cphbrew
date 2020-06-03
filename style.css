@@ -1159,6 +1159,59 @@ input[type=book]:hover {
 
 	}
 
+	.howtocontainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 2em;
+
+	}
+
+	.howtocontainer h2 {
+		font-family: BebasNeue;
+		font-size: 2.4em;
+		margin-left: 10px;
+	}
+
+	.howtocontainer p {
+		font-family: Helvetica;
+		max-width: 360px;
+		margin-left: 35px;
+
+
+	}
+
+
+	.howtobrew {
+		max-height: 525px;
+		margin-left: 2px;
+		margin-bottom: 50px;
+
+	}
+
+	.newsletterhorn {
+		max-height: 300px;
+		margin-left: 15px;
+	}
+
+	.signupinput {
+		margin-right: 200px;
+		margin-left: 10px;
+	}
+
+	input[type=signup] {
+		margin-bottom: 60px;
+	}
+
+	input[type=signup] {
+		width: 300px;
+
+	}
+
+	input[type=signup]:hover {
+		background-color: #ffeb00;
+	}
+
 	/* BEER PAGE */
 
 	.beerpage {
