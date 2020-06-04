@@ -86,12 +86,17 @@ a:hover {
 
 	.splashgif {
 
-		height: 450px;
+		height: 430px;
 		margin-top: 0px;
 
 
 
 
+	}
+
+	.logosplash {
+		max-height: 130px;
+		margin-left: 450px;
 	}
 
 	.youbrewvideo {
@@ -992,6 +997,11 @@ input[type=book]:hover {
 
 	.box3 {}
 
+	.logosplash {
+		max-height: 130px;
+		margin-left: 250px;
+	}
+
 	#forsidesplash > div:nth-child(odd) {}
 
 	#forside h1 {
@@ -1482,6 +1492,12 @@ input[type=book]:hover {
 		margin-right: 0px;
 
 
+	}
+
+	.logosplash {
+		margin-top: 100px;
+		max-height: 100px;
+		margin-left: 120px;
 	}
 
 	#forsidesplash > div:nth-child(odd) {}
@@ -2160,23 +2176,24 @@ input[type=book]:hover {
 	}
 
 	.box1 {
-		/*align-self: start;*/
+
 		max-width: 480px;
 
 	}
 
-	.box2 {
-		/*align-self: start;*/
+	.box2 {}
 
+	.box3 {
+		margin-top: 190px;
+		padding-left: 0px;
 
 
 	}
 
-	.box3 {
-		margin-top: 190px;
-		padding-left: 1px;
+	.logosplash {
 
-
+		margin-left: 80px;
+		max-height: 80px;
 	}
 
 	#forsidesplash > div:nth-child(odd) {}
@@ -2189,7 +2206,7 @@ input[type=book]:hover {
 	.splashbillede1 {
 		margin-top: 50px;
 		max-height: 224px;
-		grid-column: 1;
+
 
 
 
@@ -2217,6 +2234,7 @@ input[type=book]:hover {
 		padding-left: 0px;
 		margin-top: 0px;
 		max-height: 190px;
+
 
 	}
 
