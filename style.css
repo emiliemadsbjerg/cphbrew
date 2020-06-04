@@ -1374,6 +1374,675 @@ input[type=book]:hover {
 
 }
 
+@media only screen and (max-width: 600px) {
+
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#forsidesplash {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+		justify-content: stretch;
+
+
+
+
+
+	}
+
+	.box1 {
+		/*align-self: start;*/
+		grid-column: 1/4;
+		grid-row: 1/3;
+		max-width: 500px;
+
+	}
+
+	.box2 {
+		/*align-self: start;*/
+		grid-column: 1/3;
+
+
+	}
+
+	.box3 {
+		grid-column: 3;
+		margin-top: 10px;
+		margin-left: 80px;
+		margin-right: 0px;
+
+
+	}
+
+	#forsidesplash > div:nth-child(odd) {}
+
+	#forside h1 {
+		font-family: BebasNeue;
+		font-size: 6rem;
+	}
+
+	.splashbillede1 {
+		margin-top: 50px;
+		max-height: 300px;
+
+
+
+
+
+
+	}
+
+	.splashbillede2 {
+
+		height: 350px;
+		margin-top: 10px;
+		margin-left: 3px;
+		max-height: 200px;
+
+
+
+
+
+	}
+
+	.splashgif {
+
+		height: 320px;
+		margin-top: 0px;
+		max-height: 200px;
+
+	}
+
+	#youbrewcontainer {
+		background-color: white;
+		margin-bottom: 40px;
+		display: grid;
+		grid-template-columns: 1fr;
+
+
+
+	}
+
+
+
+	.youbrewoverskrift {
+		font-family: BebasNeue;
+		font-size: 4em;
+		text-align: center;
+		color: #6ac4c4;
+		margin-bottom: 50px;
+		margin-top: 100px;
+	}
+
+
+
+	.youbrewbox1 {
+		grid-column: 1/4;
+		margin-left: 0;
+
+
+
+
+	}
+
+	.youbrewvideo {
+		width: 375px;
+		height: 200px;
+		margin-left: 60px;
+
+	}
+
+	.youbrewbox2 h2 {
+		font-family: BebasNeue;
+		font-size: 2.9em;
+		text-align: center;
+	}
+
+	.youbrewbox2 {
+		margin-left: 50px;
+		margin-right: 40px;
+		grid-column: 4;
+		grid-row: 2;
+
+	}
+
+	.youbrewbox2 p {
+		margin-top: 40px;
+		font-family: Helvetica;
+		text-align: justify;
+	}
+
+	.youbrewcontainer2 {
+		background-color: white;
+		margin-bottom: 200px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+
+
+	}
+
+	.youbrewcontainer2 h2 {
+		font-size: 2.9em;
+		text-align: center;
+
+	}
+
+	.youbrewcontainer2box1 {
+		margin-right: 40px;
+
+
+	}
+
+	.youbrewcontainer2box2 {
+		margin-top: 30px;
+		margin-left: 0px;
+		margin-right: 70px;
+		grid-column: 1/3;
+
+	}
+
+	.offerbutton {
+		margin-left: 100px;
+	}
+
+	.youbrewcontainer2 p {
+		min-width: 50px;
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+
+	.pressgauge {
+		margin-left: 0;
+		max-width: 360px;
+	}
+
+	.howtocontainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 2em;
+
+	}
+
+	.howtocontainer h2 {
+		font-family: BebasNeue;
+		font-size: 2.4em;
+		margin-left: 70px;
+	}
+
+	.howtocontainer p {
+		font-family: Helvetica;
+		max-width: 360px;
+		margin-left: 85px;
+
+
+	}
+
+
+	.howtobrew {
+		max-height: 655px;
+		margin-left: 20px;
+		margin-bottom: 50px;
+
+	}
+
+	.newsletterhorn {
+		max-height: 300px;
+		margin-left: 15px;
+	}
+
+	.signupinput {
+		margin-right: 200px;
+		margin-left: 85px;
+	}
+
+	input[type=signup] {
+		margin-bottom: 60px;
+	}
+
+	input[type=signup] {
+		width: 300px;
+
+	}
+
+	input[type=signup]:hover {
+		background-color: #ffeb00;
+	}
+
+
+	.instagram {
+		grid-template-columns: 1fr;
+		height: 350px;
+	}
+
+	.instagram h1 {
+		font-size: 4.3em;
+		text-align: center;
+	}
+
+	.instagram p {
+		text-align: center;
+		font-size: 1em;
+	}
+
+
+
+
+
+	/* OUR BEER PAGE */
+	#ourbeercontainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-bottom: 70px;
+		margin-left: 20px;
+
+
+	}
+
+	.ourbeersplash {
+		margin-top: 50px;
+		max-height: 300px;
+
+	}
+
+	.contacth1 {
+		font-size: 4em;
+		margin-left: 140px;
+		padding-top: 300px;
+	}
+
+	.summeripa {
+		margin-top: 45px;
+
+	}
+
+	.tgiipa {
+		margin-top: 45px;
+	}
+
+	.sourpeach {
+		margin-top: 45px;
+		margin-left: 10px;
+
+	}
+
+	.hangar5 {
+		margin-top: 45px;
+	}
+
+	.redbaron {
+		margin-top: 45px;
+	}
+
+	.xmas {
+		margin-top: 45px;
+	}
+
+	.pilot {
+		margin-top: 45px;
+	}
+
+	.mwl {
+		margin-top: 45px;
+	}
+
+	.sourpeachh4 {
+		margin-right: 20px;
+	}
+
+
+	/* BOOK PAGE */
+
+
+	.bookform {
+		margin-left: 10px;
+	}
+
+	.bookform h3 {
+		font-family: BebasNeue;
+		color: orange;
+		font-size: 3em;
+
+	}
+
+	label {
+		font-family: BebasNeue;
+		font-size: 1.2em;
+	}
+
+	input[type=text],
+	select {}
+
+	input[type=book] {
+		margin-left: 25px;
+	}
+
+	.contacth1 {
+		font-family: BebasNeue;
+		font-size: 4.5em;
+		margin-left: 120px;
+
+	}
+
+	.contactbox {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+		justify-content: stretch;
+		margin-left: 10px;
+		background-color: white;
+		height: 750px;
+		margin-top: 70px;
+	}
+
+
+
+	.contactkim {
+		max-height: 360px;
+		margin-left: 30px;
+	}
+
+	.contacttext {
+		max-width: 350px;
+		margin-top: 0px;
+		font-family: Helvetica;
+		text-align: justify;
+		margin-left: 50px;
+	}
+
+	.contacttext h1 {
+		font-family: BebasNeue;
+		font-size: 3em;
+		text-align: center;
+	}
+
+	.contactlars {
+		max-height: 320px;
+		margin-left: 30px;
+	}
+
+
+	/* OUR BEER PAGE */
+
+	.summeripavideo {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-left: 10px;
+		margin-bottom: 100px;
+
+	}
+
+	.ipavideo {
+		max-height: 250px;
+		grid-column: 1/3;
+		margin-left: 16px;
+	}
+
+	.videotekst {
+		margin-top: 40px;
+		margin-left: 60px;
+
+
+	}
+
+	.videotekst h1 {
+		font-family: BebasNeue;
+		text-align: center;
+		font-size: 4em;
+		color: #3495dd;
+	}
+
+	.videotekst p {
+		font-family: Helvetica;
+		text-align: justify;
+		justify-content: center;
+		margin-right: 0px;
+		margin-left: 0px;
+		min-width: 360px;
+	}
+
+	#ourbeercontainer {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-bottom: 100px;
+		margin-left: 0px;
+	}
+
+	.beerselection {
+		font-size: 5em;
+	}
+
+	.order {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+
+	}
+
+	.ordertekst {
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
+
+	.ordertekst h1 {
+		font-family: BebasNeue;
+		font-size: 4em;
+		text-align: center;
+		color: orange;
+	}
+
+	.ordertekst p {
+		font-family: Helvetica;
+		text-align: justify;
+		margin-top: 30px;
+		margin-right: 25px;
+	}
+
+	.sourpeachcans {
+		max-width: 500px;
+		grid-column: 1;
+	}
+
+	/* OUR BEER PAGE END*/
+
+	/* ABOUT PAGE START */
+
+	.aboutparallax h1 {
+		font-family: BebasNeue;
+		font-size: 6.2em;
+		color: black;
+		margin-left: 20px;
+		padding-top: 430px;
+	}
+
+	.aboutparallax {
+		background-image: url('goodbeerbackground2-01.png');
+
+		height: 700px;
+
+		background-attachment: fixed;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+
+
+	}
+
+
+	.aboutbox {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		justify-content: stretch;
+		margin-left: 10px;
+		background-color: white;
+		height: 1000px;
+		margin-right: 40px;
+	}
+
+	.aboutbox h1 {
+		font-family: BebasNeue;
+		font-size: 4em;
+		padding-left: 0;
+		grid-column: 1;
+		color: #306293;
+		margin-left: 60px;
+
+
+
+	}
+
+	.aboutbox h2 {
+		font-family: BebasNeue;
+		font-size: 3em;
+		margin-left: 45px;
+	}
+
+	.aboutbox p {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 370px;
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+
+	#begantekst {}
+
+	.tanke {
+		max-height: 378px;
+		margin-left: 0px;
+
+	}
+
+	.ourvisiongif {
+		max-height: 170px;
+		grid-column: 1/2;
+		margin-left: 60px;
+
+	}
+
+	.visionbox {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column-gap: 1em;
+		grid-auto-rows: minmax(100px, auto);
+		justify-content: stretch;
+		margin-left: 30px;
+		background-color: white;
+		height: 750px;
+		padding-top: 100px;
+		padding-left: 0px;
+
+	}
+
+	.visionbox h2 {
+		font-family: BebasNeue;
+		font-size: 1.9em;
+		text-align: center;
+		margin-left: 0;
+
+	}
+
+	.visionbox p {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 450px;
+		margin-left: 0px;
+
+	}
+
+	.visionbeer {
+		margin-right: 40px;
+	}
+
+	.visionbrew {
+		margin-right: 40px;
+	}
+
+
+	/* ABOUT PAGE END */
+
+	/* BEER PAGE */
+
+	.beerpage {
+		max-width: 300px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		margin-bottom: 100px;
+	}
+
+	.beerpagepicture {
+		max-height: 400px;
+		margin-left: 100px;
+
+
+	}
+
+	.beerpageh1 {
+		font-family: BebasNeue;
+		font-size: 4.7em;
+		margin-top: 200px;
+		margin-left: 60px;
+
+
+	}
+
+
+	.beerpage p {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 500px;
+		margin-left: 60px;
+		margin-top: 50px;
+
+	}
+
+	.infop {
+		font-family: Helvetica;
+		text-align: justify;
+		max-width: 500px;
+		margin-left: 60px;
+		margin-top: 10px;
+	}
+
+	.beerpage h5 {
+		font-family: BebasNeue;
+		margin-left: 60px;
+		margin-top: 40px;
+	}
+
+
+	hr {
+		border: 1px solid #044160;
+		max-width: 450px;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+
+
+	/* BEER PAGE END*/
+
+	input[type=book] {
+		width: 200px;
+		padding: 10px;
+		margin-left: 100px;
+
+	}
+}
+
 @media only screen and (max-width: 480px) {
 
 
@@ -1859,14 +2528,11 @@ input[type=book]:hover {
 	}
 
 	.aboutparallax {
-		background-image: url('goodbeerbackground2-01.png');
+
 
 		height: 700px;
 
-		background-attachment: fixed;
-		background-position: top;
-		background-repeat: no-repeat;
-		background-size: cover;
+
 
 
 
