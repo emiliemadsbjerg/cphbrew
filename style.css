@@ -1331,7 +1331,7 @@ input[type=book]:hover {
 	.aboutparallax h1 {
 		font-family: BebasNeue;
 		font-size: 6.2em;
-		color: black;
+		color: #ffffff;
 		margin-left: 20px;
 		padding-top: 450px;
 	}
@@ -1431,7 +1431,8 @@ input[type=book]:hover {
 	}
 
 	.contacth1 {
-		margin-left: 120px;
+		font-size: 8.5em;
+		margin-left: 10px;
 	}
 
 	.contactkim {
@@ -1839,8 +1840,9 @@ input[type=book]:hover {
 
 	.contacth1 {
 		font-family: BebasNeue;
-		font-size: 4.5em;
-		margin-left: 120px;
+		font-size: 5.4em;
+		padding-top: 460px;
+		margin-left: 10px;
 
 	}
 
@@ -1975,9 +1977,9 @@ input[type=book]:hover {
 	.aboutparallax h1 {
 		font-family: BebasNeue;
 		font-size: 6.2em;
-		color: black;
+		color: #ffffff;
 		margin-left: 20px;
-		padding-top: 430px;
+		padding-top: 250px;
 	}
 
 	.aboutparallax {
@@ -2472,8 +2474,8 @@ input[type=book]:hover {
 
 	.contacth1 {
 		font-size: 4em;
-		margin-left: 140px;
-		padding-top: 300px;
+		margin-left: 10px;
+		padding-top: 200px;
 	}
 
 	.summeripa {
@@ -2544,8 +2546,9 @@ input[type=book]:hover {
 
 	.contacth1 {
 		font-family: BebasNeue;
-		font-size: 4.5em;
-		margin-left: 50px;
+		font-size: 4.2em;
+		padding-top: 450px;
+		margin-left: 10px;
 
 	}
 
@@ -2676,9 +2679,9 @@ input[type=book]:hover {
 	.aboutparallax h1 {
 		font-family: BebasNeue;
 		font-size: 6.2em;
-		color: black;
+		color: #ffffff;
 		margin-left: 20px;
-		padding-top: 430px;
+		padding-top: 400px;
 	}
 
 	.aboutparallax {
