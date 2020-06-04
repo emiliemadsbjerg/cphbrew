@@ -248,6 +248,32 @@ input[type=signup]:hover {
 	background-color: #ffeb00;
 }
 
+.values {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 1.6em;
+	max-width: 1200px;
+	margin-left: 50px;
+}
+
+.valueinfo {
+	max-height: 650px;
+	margin-bottom: 50px;
+
+}
+
+.valuestekst {
+	font-family: Helvetica;
+	max-width: 550px;
+	text-align: justify;
+}
+
+.valuestekst h2 {
+	font-family: BebasNeue;
+	font-size: 4em;
+}
+
 .instagram {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -1677,7 +1703,32 @@ input[type=book]:hover {
 	}
 
 
+	.values {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 1.6em;
+		max-width: 1200px;
+		margin-left: 40px;
+	}
 
+	.valueinfo {
+		max-height: 600px;
+		margin-bottom: 50px;
+
+	}
+
+	.valuestekst {
+		font-family: Helvetica;
+		max-width: 400px;
+		text-align: justify;
+	}
+
+	.valuestekst h2 {
+		font-family: BebasNeue;
+		font-size: 4em;
+		text-align: center;
+	}
 
 
 	/* OUR BEER PAGE */
@@ -2211,15 +2262,16 @@ input[type=book]:hover {
 		font-family: BebasNeue;
 		font-size: 2.9em;
 		text-align: center;
-		margin-left: 0px;
+		margin-left: 20px;
 		margin-right: 10px;
 	}
 
 	.youbrewbox2 {
-		margin-left: 50px;
+		margin-left: 0px;
 		margin-right: 40px;
 		grid-column: 4;
 		grid-row: 2;
+
 
 	}
 
@@ -2227,6 +2279,8 @@ input[type=book]:hover {
 		margin-top: 40px;
 		font-family: Helvetica;
 		text-align: justify;
+		max-width: 330px;
+		margin-left: 20px;
 	}
 
 	.youbrewcontainer2 {
@@ -2235,6 +2289,7 @@ input[type=book]:hover {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-auto-rows: minmax(100px, auto);
+		margin-left: 0px;
 
 
 	}
@@ -2247,6 +2302,7 @@ input[type=book]:hover {
 
 	.youbrewcontainer2box1 {
 		margin-right: 40px;
+
 
 
 	}
@@ -2264,13 +2320,14 @@ input[type=book]:hover {
 	}
 
 	.youbrewcontainer2 p {
-		min-width: 50px;
+		max-width: 340px;
 		margin-bottom: 40px;
 		margin-top: 30px;
+		margin-left: 20px;
 	}
 
 	.pressgauge {
-		margin-left: 0;
+		margin-left: 0px;
 		max-width: 300px;
 
 	}
@@ -2345,7 +2402,34 @@ input[type=book]:hover {
 	}
 
 
+	.values {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 1.6em;
+		max-width: 400px;
+		margin-left: 0px;
+	}
 
+	.valueinfo {
+		max-height: 450px;
+		margin-bottom: 50px;
+		margin-left: 25px;
+
+	}
+
+	.valuestekst {
+		font-family: Helvetica;
+		max-width: 300px;
+		margin-left: 30px;
+		text-align: justify;
+	}
+
+	.valuestekst h2 {
+		font-family: BebasNeue;
+		font-size: 4em;
+		text-align: center;
+	}
 
 
 	/* OUR BEER PAGE */
